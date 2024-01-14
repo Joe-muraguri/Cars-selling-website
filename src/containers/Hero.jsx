@@ -3,9 +3,15 @@ import '../styles/Hero.css'
 import { Search } from './Search'
 import {Brand} from './Brand'
 import {Body} from './Body'
+import { Link } from 'react-router-dom'
+import { Steps } from './Steps'
+// import {useHistory} from 'react-router-dom'
 
 export const Hero = () => {
     const [activeSearch, setActiveSearch] = useState('advancedsearch')
+    // const history = useHistory()
+
+    
 
     const handleButtonClick = (componentName) =>{
         setActiveSearch(componentName);
@@ -17,7 +23,10 @@ export const Hero = () => {
             <img src="images/benz.webp" alt="" />
         </div>
         <div className="vehicles-kenya">
-            <button type="button" class="btn btn-dark  me-5">OUR VEHICLES</button>
+            <Link to="/kenyan_vehicles">
+                <button type="button" class="btn btn-dark  me-5">OUR VEHICLES</button>
+            </Link>
+          
             
             <button type="button" class="btn btn-secondary">OUR PARTNERS VEHICLES</button>
         </div>
@@ -36,6 +45,8 @@ export const Hero = () => {
         {activeSearch === 'advancedsearch' && <Search/>}
         {activeSearch === 'brandsearch' && <Brand/>}
         {activeSearch === 'bodysearch' && <Body/>}
+
+        <Steps/>
     </div>
   )
 }
