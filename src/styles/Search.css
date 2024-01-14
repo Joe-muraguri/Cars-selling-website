@@ -1,0 +1,87 @@
+.search-vehicle{
+    width: 60%;
+    justify-content: center;
+    /* align-items: center; */
+    margin: auto;
+    margin-top: 20px;
+    /* text-align: center; */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.search-vehicle h1{
+    font-size: 1rem;
+}
+.search-vehicle p{
+    font-size: 0.8rem;
+}
+.search-vehicle .vehicle-name-input{
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 5px;
+}
+.search-vehicle .model{
+    margin-left: 15px;
+}
+.search-vehicle .yom-min{
+    padding: 10px;
+    width: 30%;
+    outline: none;
+    border-radius: 5px;
+}
+.search-vehicle .yom-max{
+    padding: 10px;
+    width: 30%;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.search-vehicle .yom-heading{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.search-vehicle .price-range{
+    padding: 10px;
+    width: 30%;
+    outline: none;
+    border-radius: 5px;
+}
+
+.search-vehicle .price-max{
+    padding: 10px;
+    width: 30%;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+select{
+    padding: 10px;
+    width: 30%;
+    margin-top: 15px;
+    box-sizing: border-box;border-radius: 5px;
+
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.search-button{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    padding: 8px 20px;
+    outline: none;
+    background: #333;
+    color: #fff;
+    border: none;
+    
+}

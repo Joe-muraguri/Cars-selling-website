@@ -1,0 +1,35 @@
+.hero-heading{
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+.hero-img{
+    justify-content: center;
+    text-align: center;
+}
+.vehicles-kenya{
+    justify-content: center;
+    text-align: center;
+}
+
+.research-car{
+    justify-content: center;
+    margin-top: 20px;
+    
+    text-align: center;
+}
+.research-car p{
+    margin-top: 15px;
+}
+.search{
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    
+
+    
+}
+.search h5{
+    margin-left: 40px;
+}

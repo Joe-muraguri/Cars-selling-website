@@ -1,0 +1,14 @@
+.buying-process{
+    padding: 20px;
+}
+.buying-process .enquire-process{
+    display: flex;
+}
+.buying-process .EP{
+    margin-left: 45px;
+}
+
+.buying-process i{
+    font-size: 50px;
+    
+}
