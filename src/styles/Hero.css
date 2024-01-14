@@ -33,3 +33,13 @@
 .search h5{
     margin-left: 40px;
 }
+
+@media screen and (max-width:600px) {
+    .hero-img img{
+        width: 500px;
+
+    }
+    .vehicles-kenya{
+        display: block;
+    }
+}

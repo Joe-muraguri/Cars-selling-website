@@ -9,7 +9,7 @@ export const Header = () => {
         
       <ul className= {navbar ? "navbar" : "flex"} onClick={()=>setNavbar(false)}>
           <li><a>Kenyan Stock</a></li>
-          <li><a>International Stock</a></li>
+          <li><a>Our Partners Stock</a></li>
           <li><a>About</a></li>
           <li><a>Contact</a></li>
       </ul>
