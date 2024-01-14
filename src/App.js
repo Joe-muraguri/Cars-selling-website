@@ -14,9 +14,9 @@ function App() {
     <div className="App">
       <Header/>
       <Hero/>
-      <Search />
+      {/* <Search />
       <Brand />
-      <Body />
+      <Body /> */}
       <Steps />
       <Footer />
     </div>

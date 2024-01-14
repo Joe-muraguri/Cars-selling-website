@@ -1,7 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../styles/Hero.css'
+import { Search } from './Search'
+import {Brand} from './Brand'
+import {Body} from './Body'
 
 export const Hero = () => {
+    const [activeSearch, setActiveSearch] = useState('advancedsearch')
+
+    const handleButtonClick = (componentName) =>{
+        setActiveSearch(componentName);
+    }
   return (
     <div>
         <h1 className='hero-heading'>Find your dream car</h1>
@@ -18,11 +26,16 @@ export const Hero = () => {
             <p>We help you find a car that fits Your personality, dream and pocket!</p>
         </div>
         <div className="search">
-            <button type="button" class="btn btn-outline-success me-3">Advanced search</button>
-            <button type="button" class="btn btn-outline-danger me-3">Search by Brand</button>
-            <button type="button" class="btn btn-outline-primary">Body Type</button>
+            <button onClick={()=>handleButtonClick('advancedsearch')} type="button" class="btn btn-outline-success me-3">Advanced search</button>
+            <button onClick={()=>handleButtonClick('brandsearch')} type="button" class="btn btn-outline-danger me-3">Search by Brand</button>
+            <button onClick={()=>handleButtonClick('bodysearch')} type="button" class="btn btn-outline-primary">Body Type</button>
+
+            
             
         </div>
+        {activeSearch === 'advancedsearch' && <Search/>}
+        {activeSearch === 'brandsearch' && <Brand/>}
+        {activeSearch === 'bodysearch' && <Body/>}
     </div>
   )
 }

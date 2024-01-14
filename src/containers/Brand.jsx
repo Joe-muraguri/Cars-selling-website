@@ -15,7 +15,7 @@ export const Brand = () => {
     ];
   return (
     <>
-        <div className="container d-flex justify-content-center" style={{width:'60%'}}>
+        <div className="container d-flex justify-content-center mt-5" style={{width:'60%'}}>
             <div className="row">
                 {svgImages.map((path, index)=>(
                     <div key={index} className="col-md-4 mb-3">
