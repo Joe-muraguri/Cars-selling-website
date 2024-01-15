@@ -91,5 +91,8 @@ select::-ms-expand {
         width: 90%;
         padding: 22px;
     }
+    .select_model{
+        margin-top: 10px;
+    }
     
 }

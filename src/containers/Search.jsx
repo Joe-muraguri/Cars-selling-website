@@ -22,7 +22,7 @@ export const Search = () => {
                     </select>
                 </div>
                 <div className="col-md-6">
-                    <select className='form-select aria-label="Default select example' name="Model" id="">
+                    <select className='form-select aria-label="Default select_model' name="Model" id="">
                         <option value="benz">Mercedese</option>
                         <option value="benz">BMW</option>
                         <option value="benz">Toyota</option>
