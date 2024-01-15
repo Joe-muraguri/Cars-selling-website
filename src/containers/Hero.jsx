@@ -31,7 +31,7 @@ export const Hero = () => {
             <button type="button" class="btn btn-secondary">OUR PARTNERS VEHICLES</button>
         </div>
         <div className="research-car">
-            <h3>Research the car befor buying</h3>
+            <h3>Research the car before buying</h3>
             <p>We help you find a car that fits Your personality, dream and pocket!</p>
         </div>
         <div className="search">
