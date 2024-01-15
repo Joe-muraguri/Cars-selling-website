@@ -10,7 +10,7 @@ export const Steps = () => {
                 <div className="enquire-process">
                   <div className="select-car EP">
                     <i class="fa-solid fa-car"></i>
-                    <p>Select your car</p>
+                    <p>Select car</p>
                   </div>
 
                   <div className="enquire EP">
@@ -20,7 +20,7 @@ export const Steps = () => {
 
                   <div className="pay EP">
                     <i class="fa-solid fa-money-check-dollar"></i>
-                    <p>Make payment</p>
+                    <p>Pay</p>
                   </div>
 
                 </div>
