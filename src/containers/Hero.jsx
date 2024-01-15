@@ -28,7 +28,7 @@ export const Hero = () => {
             </Link>
           
             
-            <button type="button" class="btn btn-secondary">OUR PARTNERS VEHICLES</button>
+            <button type="button" class="btn btn-secondary partner-btn">OUR PARTNERS VEHICLES</button>
         </div>
         <div className="research-car">
             <h3>Research the car before buying</h3>
