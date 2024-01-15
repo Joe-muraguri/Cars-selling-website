@@ -10,7 +10,7 @@ export const Steps = () => {
                 <div className="enquire-process">
                   <div className="select-car EP">
                     <i class="fa-solid fa-car"></i>
-                    <p>Select car</p>
+                    <p>Select</p>
                   </div>
 
                   <div className="enquire EP">
