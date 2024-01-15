@@ -46,4 +46,8 @@
     .vehicles-kenya .partner-btn{
         margin-top: 8px;
     }
+    .custom-btn{
+        font-size: 12px;
+        padding: 5px 10px;
+    }
 }

@@ -35,9 +35,9 @@ export const Hero = () => {
             <p>We help you find a car that fits Your personality, dream and pocket!</p>
         </div>
         <div className="search">
-            <button onClick={()=>handleButtonClick('advancedsearch')} type="button" class="btn btn-outline-success btn-sm me-3">Advanced search</button>
-            <button onClick={()=>handleButtonClick('brandsearch')} type="button" class="btn btn-outline-danger btn-sm me-3">Search by Brand</button>
-            <button onClick={()=>handleButtonClick('bodysearch')} type="button" class="btn btn-outline-primary btn-sm">Body Type</button>
+            <button onClick={()=>handleButtonClick('advancedsearch')} type="button" class="btn btn-outline-success custom-btn btn-sm me-3">Advanced search</button>
+            <button onClick={()=>handleButtonClick('brandsearch')} type="button" class="btn btn-outline-danger custom-btn btn-sm me-3">Search by Brand</button>
+            <button onClick={()=>handleButtonClick('bodysearch')} type="button" class="btn btn-outline-primary custom-btn btn-sm">Body Type</button>
 
             
             
