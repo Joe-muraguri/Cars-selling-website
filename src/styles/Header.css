@@ -52,7 +52,8 @@
     .header .navbar{
         position: absolute;
         display: block;
-        background-color: #EB1B28;
+        background-color: #040404;
+        color: #fff;
         right: 0;
         top: 100px !important;
         width: 60%;
